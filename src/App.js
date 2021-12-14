@@ -7,7 +7,7 @@ import Contador from './componentes/Contador'
 import Plataformas from './componentes/Plataformas'
 import ValidarProps from './componentes/ValidarProps'
 import Evento from './componentes/Evento'
-
+import Avo from './componentes/ComunicacaoDireta'
 
 export default class App extends Component {
   render() {
@@ -19,8 +19,10 @@ export default class App extends Component {
         <MegaSena numeros={6}/>
         <Contador numeroInicial={100}/>
         <Plataformas />
-        <ValidarProps ano={18}/> */}
-        <Evento />
+        <ValidarProps ano={18}/> 
+        <Evento />*/}
+        <Avo nome='Joao' sobrenome='silva'/>
+
       </View>
     )
   }
