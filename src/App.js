@@ -9,6 +9,7 @@ import ValidarProps from './componentes/ValidarProps'
 import Evento from './componentes/Evento'
 import Avo from './componentes/ComunicacaoDireta'
 import { TextoSincronizado } from './componentes/ComunicacaoIndireta'
+import ListaFlex from './componentes/ListaFlex'
 
 export default class App extends Component {
   render() {
@@ -22,8 +23,9 @@ export default class App extends Component {
         <Plataformas />
         <ValidarProps ano={18}/> 
         <Evento />
-        <Avo nome='Joao' sobrenome='silva'/>*/}
-        <TextoSincronizado />
+        <Avo nome='Joao' sobrenome='silva'/>
+        <TextoSincronizado />*/}
+        <ListaFlex/>
         
 
       </View>
@@ -35,7 +37,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    
   },
   f20: {
     fontSize: 40
