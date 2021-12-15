@@ -8,6 +8,7 @@ import Plataformas from './componentes/Plataformas'
 import ValidarProps from './componentes/ValidarProps'
 import Evento from './componentes/Evento'
 import Avo from './componentes/ComunicacaoDireta'
+import { TextoSincronizado } from './componentes/ComunicacaoIndireta'
 
 export default class App extends Component {
   render() {
@@ -20,8 +21,10 @@ export default class App extends Component {
         <Contador numeroInicial={100}/>
         <Plataformas />
         <ValidarProps ano={18}/> 
-        <Evento />*/}
-        <Avo nome='Joao' sobrenome='silva'/>
+        <Evento />
+        <Avo nome='Joao' sobrenome='silva'/>*/}
+        <TextoSincronizado />
+        
 
       </View>
     )
